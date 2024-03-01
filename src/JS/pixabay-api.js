@@ -1,8 +1,8 @@
-// import axios from 'axios';
+import axios from 'axios';
 const ENDPOINT = 'https://pixabay.com/api/';
 const KEY = '33796051-1e422d07d8c9fc912bc2a7eb4';
 const param =
-  'per_page=18&image_type=photo&orientation=horyzontal&safesearch=true';
+  'per_page=15&image_type=photo&orientation=horyzontal&safesearch=true';
 
 
 export default function ImageApiService(search) {
