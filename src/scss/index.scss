@@ -1,0 +1,13 @@
+@import './gallery.scss';
+@import './reset.scss';
+@import './search.scss';
+@import './vars.scss';
+@import './loader.scss';
+@import './btn-load';
+
+body {
+    background-color: var(--main-color);
+    margin: 36px 0;
+    width: 1440px;
+    font-family: montserrat;
+}
