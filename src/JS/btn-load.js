@@ -17,12 +17,10 @@ export default class LoadMoreBtn {
     this.button.classList.remove('hidden');
   }
 
-  disable() {
-    this.button.disabled = true;
-    this.button.textContent = 'Loading...';
-  }
-  enable() {
-    this.button.disabled = false;
-    this.button.textContent = 'Load more';
-  }
+  // disable() {
+  //   this.button.disabled = true;
+  // }
+  // // enable() {
+  // //   this.button.disabled = false;
+  // }
 }
