@@ -48,10 +48,13 @@ function onSubmit(event) {
 
 async function fetchHits() {
   enabledLoader();
-  const data = await imageApiService.getImage();
-  const hits = data.hits;
-  const markup = hits.reduce((markup, hit) => createMarkup(hit) + markup, '');
   try {
+      const data = await imageApiService.getImage();
+      const hits = data.hits;
+      const markup = hits.reduce(
+        (markup, hit) => createMarkup(hit) + markup,
+        ''
+      );
     if (hits.length === 0) {
       loader.classList.add('is-hidden');
       iziToast.error({
