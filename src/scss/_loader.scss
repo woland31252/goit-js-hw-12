@@ -11,21 +11,12 @@
     overflow: hidden;
 }
 
-/* .loader {
-    font-size: 28px;
-    position: absolute;
-    width: 85%;
-    top: 60px;
-    left: 470px;
-} */
-
 .loader {
     width: 60px;
     height: 40px;
     position: relative;
     display: inline-block;
     --base-color: var(--main-color);
-    /*use your base color*/
 }
 
 .loader::before {
