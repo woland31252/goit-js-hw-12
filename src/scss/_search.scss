@@ -1,50 +1,49 @@
 .search-form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 36px;
+  width: 390px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
 }
 
 input {
-    width: 272px;
-    border-radius: 4px;
-    border: 1px solid #808080;
-    padding: 10px 16px;
-    font-size: var(--font-input);
-    font-weight: 400;
-    line-height: 0.7;
-    outline: none;
+  width: 272px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 10px 16px;
+  font-size: var(--font-input);
+  font-weight: 400;
+  line-height: 0.7;
+  outline: none;
 }
 
 input:focus {
-    border-color: var(--button-color);
-    border-width: 2px;
+  border-color: var(--button-color);
+  border-width: 2px;
 }
 
 input:hover {
-    border-color: var(--accent-color-input);
+  border-color: var(--accent-color-input);
 }
 
-
-.search-form>button {
-    border-radius: 8px;
-    width: 91px;
-    padding: 8px 16px;
-    border: none;
-    background: var(--button-color);
+.search-form > button {
+  border-radius: 8px;
+  width: 91px;
+  padding: 8px 16px;
+  border: none;
+  background: var(--button-color);
 }
-
 
 button:hover {
-    background: var(--accent-color);
-    & .button-title {
-        color: var(--accent-fonts-color);
-    } 
+  background: var(--accent-color);
+  & .button-title {
+    color: var(--accent-fonts-color);
+  }
 }
 
 .button-title {
-    color: var(--font-btncolor);
-    font-size: var(--font-input);
-    font-weight: 500;
-    line-height: 0.7;
+  color: var(--font-btncolor);
+  font-size: var(--font-input);
+  font-weight: 500;
+  line-height: 0.7;
 }

@@ -93,11 +93,16 @@ img {
   height: auto;
 }
 
+body {
+  margin: 0;
+}
+
 .search-form {
+  width: 390px;
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 36px;
+  margin: 0 auto;
 }
 
 input {
@@ -242,9 +247,23 @@ button:hover .button-title {
   display: none;
 }
 
+.gallery-container {
+  padding: 24px;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  padding: 24px;
+  background-color: #80bcde;
+  box-shadow: 0 7px 12px 6px #bbc2c2;
+}
+
 body {
   background-color: var(--main-color);
-  padding: 36px 0;
   width: 1440px;
   font-family: montserrat;
+  background-image: url(../images/irbg.clouds.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }/*# sourceMappingURL=index.css.map */

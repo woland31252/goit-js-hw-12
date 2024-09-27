@@ -4,10 +4,13 @@
 @import './vars.scss';
 @import './loader.scss';
 @import './btn-load.scss';
+@import './header';
 
 body {
     background-color: var(--main-color);
-    padding: 36px 0;
     width: 1440px;
     font-family: montserrat;
+    background-image: url(../images/irbg.clouds.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
