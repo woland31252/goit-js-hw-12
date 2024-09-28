@@ -17,10 +17,4 @@ export default class LoadMoreBtn {
     this.button.classList.remove('hidden');
   }
 
-  // disable() {
-  //   this.button.disabled = true;
-  // }
-  // // enable() {
-  // //   this.button.disabled = false;
-  // }
 }
